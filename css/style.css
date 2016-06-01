@@ -9165,14 +9165,29 @@ main .contenido {
 }
 
 main a {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
   margin: 0.3em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 main a i {
   margin-right: .5em;
 }
 
+.spock {
+  opacity: 0.2;
+  position: absolute;
+  right: 0.1em;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  top: -4.1em;
+}
+
+.spock i {
+  font-size: 4em;
+}
+
 footer {
+  position: relative;
   padding: 1em 0;
   background-color: #373a3c;
 }
