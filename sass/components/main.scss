@@ -1,0 +1,31 @@
+body {
+
+  //footer adhesivo
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: lightgreen;
+}
+main {
+  flex: 1 0 auto; //footer adhesivo
+  margin-top: 6em;
+  .contenido {
+    margin-top: 1em;
+  }
+  a {
+    @extend .btn, .btn-lg, .btn-primary;
+    margin: 0.3em;
+    // display: block;
+    i {
+      margin-right: .5em;
+      &:before {
+
+        // font-size: 1.5em;
+        // background-color: green;
+        // border-radius: 5px;
+        // padding: 0.5em;
+      }
+    }
+  }
+}
+

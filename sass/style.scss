@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+// vendor
+@import "bootstrap/bootstrap";
+/*font-awesome*/
+@import "font-awesome/font-awesome";
 
 //secciones
 @import "components/header";
+@import "components/main";
+@import "components/footer";
 
 
 

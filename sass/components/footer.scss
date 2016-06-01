@@ -1,0 +1,14 @@
+footer {
+	padding: 1em 0;
+	background-color: #373a3c;
+	.botonera {
+		@media (min-width: 25em) {
+			/* background-color: #fff; */
+			@extend .btn-group, .btn-group-sm;
+		}
+	}
+	a {
+	  @extend .btn, .btn-sm, .btn-success;
+	  margin: 0.1em 0;
+	}
+}
